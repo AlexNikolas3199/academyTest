@@ -1,0 +1,152 @@
+@media screen and (max-width: 938px){
+
+header h1 {
+	font-size: 30px
+}
+h2{
+	text-align: center;
+	margin: 50px 0 30px 0 
+}
+header div nav a{
+	font-size: 10px
+}
+main{
+	flex-direction: column;
+}
+main .mainblock{
+	padding-top:5%;
+	margin-top:5%;
+	border-left:none;
+	border-top:solid gray 1.5px;
+}
+main .mainblock:first-child{
+	border-top:none;
+	border-left:none;
+}
+.storytall .storyItems{
+	align-items: center;
+}
+.storytall .storyItems .storyItem{
+	flex-wrap:wrap;
+	justify-content: center;
+	text-align: center;
+}
+.storytall .storyItems .storyItem .storyItemhalf{
+	margin: 0 
+}
+.storytall .storyItems .storyItem .storyItemhalf p{
+	margin:0 30px
+}
+section{
+	width: 100%
+}
+.newItems{
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.newItems .newItem{
+	margin-right:0;
+}
+.gray section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.gray section p{
+	max-width: 100%;
+	margin:0 20px;
+	text-align: center;
+}
+.gray .footerPreca{
+	flex-direction: column;
+}
+.gray .footerPreca h3{
+	margin: 20px 0 0 0 
+}
+.gray .footerPreca .readPreca{
+	margin-top:20px;
+}
+th{
+	padding:10px 6px 30px 6px
+}
+th:first-child{
+	width: 20% 
+}
+th:last-child{
+	width: 20% 
+}
+td{
+	min-width: 10%;
+	padding: 15px 2px !important;
+	font-size: 11px
+}
+.flextable{
+	display: flex;
+	justify-content: center;
+}
+td:after{
+	display: none
+}
+.brown section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.navbox img{
+	margin-right: 45px
+}
+form{
+	justify-content: center;
+	width: 100%
+}
+input{
+	width: 80%;
+	margin: 0
+}
+select{
+	width: 80%;
+	margin: 0;
+	margin-bottom: 10px
+}
+.phone{
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.phone label{
+	margin: 20px;
+	width: 150px
+}
+label h3{
+	text-align: center;
+	margin-top:10px;
+}
+textarea{
+	width: 80%;
+	margin: 0
+}
+label{
+	flex-direction: column;
+	justify-content: center;
+}
+.checkContainer{
+	flex-direction: row
+}
+.checkContainer h3{
+	font-size: 12px;
+	margin-top:30px;
+}
+.checkbox{
+	margin-left: 0;
+	margin-right: 10px;
+	margin-top:5px;
+}
+.order{
+	margin-left:0;
+}
+.navbox img{
+	margin: 10px 0
+}
+.end{
+	flex-direction: column;
+}
+}
